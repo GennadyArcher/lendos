@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аренда жилья — Все сервисы</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .service-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-3px);
+        }
+
+        .service-card a {
+            text-decoration: none;
+            color: #1a73e8;
+            font-weight: bold;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+        }
+
+        .service-card a:hover {
+            color: #1557b0;
+        }
+
+        .service-icon {
+            width: 30px;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Аренда жилья — популярные сервисы</h1>
+
+        <div class="service-card">
+            <a href="https://www.airbnb.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111320.png" class="service-icon" alt="Airbnb">
+                Airbnb — аренда квартир и домов
+            </a>
+        </div>
+
+        <div class="service-card">
+            <a href="https://www.booking.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732131.png" class="service-icon" alt="Booking.com">
+                Booking.com — отели и апартаменты
+            </a>
+        </div>
+
+        <div class="service-card">
+            <a href="https://www.cian.ru" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968885.png" class="service-icon" alt="ЦИАН">
+                ЦИАН — аренда в России
+            </a>
+        </div>
+
+        <!-- Добавьте другие сервисы по аналогии -->
+    </div>
+</body>
+</html>
